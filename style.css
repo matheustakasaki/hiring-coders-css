@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 0;
+  gap: 3vh;
+}
+
+header ul {
+  display: flex;
+}
+body {
+  background: url("./bg-universe2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  margin: 0 20px;
+}
+
+h1 {
+  font-family: "Coiny", cursive;
+}
+
+.logo {
+  max-width: 200px;
+  border-radius: 100%;
+}
+
+.container {
+  text-align: center;
+}
+.container .name h1 {
+  font-size: 10rem;
+  color: #fff;
+
+
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+
+  text-shadow: 10px 2px 1px #fff;
+  letter-spacing: 10px;
+  /* transition: .5s linear text-shadow; */
+}
+
+/* .container .name h1:hover {
+  transition: .5s linear text-shadow;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+} */
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+}
+.form input {
+  width: 50%;
+}
+.form button {
+  width: 15%;
+}
+#about p {
+  max-width: 600px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@keyframes shadowHover {
+  0% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  }
+}
